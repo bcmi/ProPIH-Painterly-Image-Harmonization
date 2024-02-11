@@ -1,0 +1,63 @@
+----------------- Options ---------------
+               batch_size: 1                             
+                    beta1: 0.5                           
+          checkpoints_dir: ../checkpoints/               	[default: ./checkpoints]
+              content_dir: ../examples/                  	[default: /MS-COCO/]
+           continue_train: False                         
+                crop_size: 256                           
+               d_lr_ratio: 1                             
+             dataset_mode: cocoart                       	[default: iharmony4]
+             dataset_root: here                          
+              display_env: main                          
+             display_freq: 1                             	[default: 400]
+               display_id: 0                             	[default: 1]
+            display_ncols: 4                             
+             display_port: 8097                          
+           display_server: http://localhost              
+          display_winsize: 256                           
+                    epoch: latest                        
+              epoch_count: 1                             
+               g_lr_ratio: 1                             
+                 gan_mode: vanilla                       
+                  gpu_ids: 0                             
+                init_gain: 0.02                          
+                init_type: normal                        
+                 input_nc: 3                             	[default: 4]
+                  isTrain: True                          	[default: None]
+                 is_train: True                          
+                load_iter: 0                             
+                load_size: 256                           
+                       lr: 0.0002                        
+           lr_decay_iters: 50                            
+                lr_policy: linear                        
+         max_dataset_size: inf                           
+                    model: vgg19hrnet                    	[default: cycle_gan]
+               n_layers_D: 3                             
+                     name: pretrained                    	[default: experiment_name]
+                      ndf: 64                            
+                     netD: conv                          	[default: basic]
+                     netG: vgg19hrnet                    	[default: resnet_9blocks]
+                      ngf: 64                            
+                    niter: 100                           
+              niter_decay: 100                           
+               no_dropout: False                         
+                  no_html: False                         
+                    normD: batch                         	[default: instance]
+                    normG: batch                         	[default: RAN_Method1]
+              num_threads: 6                             	[default: 4]
+                output_nc: 3                             
+             patch_number: 4                             
+                    phase: test                          
+                pool_size: 0                             
+               preprocess: none                          	[default: resize_and_crop]
+               print_freq: 1000                          	[default: 300]
+             save_by_iter: False                         
+          save_epoch_freq: 1                             
+         save_latest_freq: 1000                          	[default: 5000]
+           serial_batches: False                         
+                style_dir: ../examples/                  	[default: /wikiart/]
+                   suffix:                               
+         update_html_freq: 500                           
+                  verbose: False                         
+                      vgg: ../checkpoints/pretrained/vgg_normalised.pth
+----------------- End -------------------
