@@ -60,7 +60,7 @@ For example, if the model is saved in `./AA/BB/latest_net_G.pth`, the `checkpoin
 
 
 
-Our pre-trained model is available in [Baidu Cloud](https://pan.baidu.com/s/1CDSnqzlcLKZGD7fzIFp5Qg) (access code: azir). Put it in `./<checkpoints_dir>/pretrained`. We provide some test examples in `./examples`. 
+Our pre-trained model is available in [Baidu Cloud](https://pan.baidu.com/s/1CDSnqzlcLKZGD7fzIFp5Qg) (access code: azir) or [OneDrive](https://1drv.ms/u/s!AohNSvvkuxZmgRSk6iTGEUsZdVfu?e=jHrMZG). Put it in `./<checkpoints_dir>/pretrained`. We provide some test examples in `./examples`. 
 
 ```bash
 cd scripts
