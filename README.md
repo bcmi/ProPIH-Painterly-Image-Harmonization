@@ -41,7 +41,7 @@ conda install pytorch==1.10.1 torchvision==0.11.2 torchaudio==0.10.1 cudatoolkit
 pip install -r requirements.txt
 ```
 
-- Download pre-trained VGG19 from [Baidu Cloud](https://pan.baidu.com/s/1HljOE-4Q2yUeeWmteu0nNA) (access code: pc9y) or [Google Drive](https://drive.google.com/drive/folders/1dAuUFMjRr3mxAaDkvXQzLBjMyIjNIZsC). Put it in  `./<checkpoints_dir>/pretrained`
+- Download pre-trained VGG19 from [Baidu Cloud](https://pan.baidu.com/s/1HljOE-4Q2yUeeWmteu0nNA) (access code: pc9y) or [OneDrive](https://1drv.ms/u/s!AohNSvvkuxZmgSRYV1PSXQ6IrT_r?e=lFqivv). Put it in  `./<checkpoints_dir>/pretrained`
 
 ### ProPIH train/test
 - Train ProPIH: 
