@@ -71,3 +71,8 @@ The output results would be saved in `./output`. Some results are shown below. W
 <div align="center">
 	<img src="figures/result.jpg" alt="harmonization_results" width="800">
 </div>
+
+## Other Resources
+
++ [Awesome-Image-Harmonization](https://github.com/bcmi/Awesome-Image-Harmonization)
++ [Awesome-Image-Composition](https://github.com/bcmi/Awesome-Object-Insertion)
