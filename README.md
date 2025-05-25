@@ -41,7 +41,7 @@ conda install pytorch==1.10.1 torchvision==0.11.2 torchaudio==0.10.1 cudatoolkit
 pip install -r requirements.txt
 ```
 
-- Download pre-trained VGG19 from [Baidu Cloud](https://pan.baidu.com/s/1HljOE-4Q2yUeeWmteu0nNA) (access code: pc9y) or [OneDrive](https://1drv.ms/u/s!AohNSvvkuxZmgSRYV1PSXQ6IrT_r?e=lFqivv). Put it in  `./<checkpoints_dir>/pretrained`
+- Download pre-trained VGG19 from [Baidu Cloud](https://pan.baidu.com/s/1HljOE-4Q2yUeeWmteu0nNA) (access code: pc9y) or [Dropbox](https://www.dropbox.com/scl/fi/xe7pqh840enc16wq5f00r/vgg_normalised.pth?rlkey=c09ynaraeir01b1xsrxwmmfqg&st=tsvcikom&dl=0). Put it in  `./<checkpoints_dir>/pretrained`
 
 ### ProPIH train/test
 - Train ProPIH: 
@@ -60,7 +60,7 @@ For example, if the model is saved in `./AA/BB/latest_net_G.pth`, the `checkpoin
 
 
 
-Our pre-trained model is available in [Baidu Cloud](https://pan.baidu.com/s/1CDSnqzlcLKZGD7fzIFp5Qg) (access code: azir) or [OneDrive](https://1drv.ms/u/s!AohNSvvkuxZmgRSk6iTGEUsZdVfu?e=jHrMZG). Put it in `./<checkpoints_dir>/pretrained`. We provide some test examples in `./examples`. 
+Our pre-trained model is available in [Baidu Cloud](https://pan.baidu.com/s/1CDSnqzlcLKZGD7fzIFp5Qg) (access code: azir) or [Dropbox](https://www.dropbox.com/scl/fi/hs3cpdrjsojpy9s8z0nb2/latest_net_G.pth?rlkey=gyd9c3tlj5k7e6qufcxxdvzq8&st=bigeqodb&dl=0). Put it in `./<checkpoints_dir>/pretrained`. We provide some test examples in `./examples`. 
 
 ```bash
 cd scripts
