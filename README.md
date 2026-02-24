@@ -10,7 +10,11 @@ We release the code used in the following paper:
 
 Our method can harmonize a composite image from low-level styles to high-level styles. The results harmonized to the highest style level have sufficiently stylized foregrounds, but also take the risk of content distortion and artifacts. The users can select the result harmonized to the proper style level. 
 
+## Online Demo
 
+Try this [online demo](http://libcom.ustcnewly.com/) for image composition (object insertion) built upon [libcom](https://github.com/bcmi/libcom) toolbox and have fun!
+
+[![]](https://github.com/user-attachments/assets/87416ec5-2461-42cb-9f2d-5030b1e1b5ec)
 
 ## Prerequisites
 - Linux
